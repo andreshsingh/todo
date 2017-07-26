@@ -1,0 +1,47 @@
+body {
+  background: #f3f3f3
+}
+
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+.main-div-left{
+	float:left;
+}
+
+.main-div-right{
+	float: right;
+}
+
+.main-div{
+	width: 500px;
+	margin: 0 auto;
+}
+
+.outer{
+	width: 500px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.main-div-form{
+	width: 500px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.formdescription{
+	width:500px;
+	height:200px;
+}
+
